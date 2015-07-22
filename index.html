@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+</head>
+<body>
+
+<div>
+    <label>Say Hello:</label>
+    <input type="text" ng-model="myStuff.stuff" placeholder="World">
+    <h1>Hello {{myStuff.stuff}}!</h1>
+
+    <h1 ng-bind="myStuff.stuff">Hello!</h1>
+
+
+</div>
+
+</body>
+</html>
